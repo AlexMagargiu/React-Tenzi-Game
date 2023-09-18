@@ -14,9 +14,34 @@
 
 main{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 640px;
     height: 640px;
-    background-color: #778899;
+    background-color: #ffffffee;
     border-radius: 10px;
+}
+
+.dice-container{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.dice-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.dice-box > h2{
+    color: #2b283a;
+    font-size: 32px;
 }
