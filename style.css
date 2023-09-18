@@ -3,3 +3,20 @@
     margin: 0;
     padding: 0;
 }
+
+#root{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b2434;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    width: 640px;
+    height: 640px;
+    background-color: #778899;
+    border-radius: 10px;
+}
